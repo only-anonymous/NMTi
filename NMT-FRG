@@ -57,7 +57,7 @@
             "port": 443,
             "users": [
               {
-                "id": "788473f1-b42f-4cb2-9c4f-3827f983da52",
+                "id": "69d036a0-a073-4f52-ae02-c3774ae83358",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -73,7 +73,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "UpgRADe-dECiSIons-MaE-NAkED.TryclouDfLaRE.Com",
+          "serverName": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm",
           "alpn": [
             "h2",
             "http/1.1"
@@ -82,9 +82,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "788473f1-b42f-4cb2-9c4f-3827f983da52",
+          "path": "69d036a0-a073-4f52-ae02-c3774ae83358",
           "headers": {
-            "Host": "UpgRADe-dECiSIons-MaE-NAkED.TryclouDfLaRE.Com"
+            "Host": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm"
           }
         },
         "sockopt": {
@@ -207,7 +207,7 @@
             "port": 443,
             "users": [
               {
-                "id": "788473f1-b42f-4cb2-9c4f-3827f983da52",
+                "id": "69d036a0-a073-4f52-ae02-c3774ae83358",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -223,7 +223,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "UpgRADe-dECiSIons-MaE-NAkED.TryclouDfLaRE.Com",
+          "serverName": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm",
           "alpn": [
             "h2",
             "http/1.1"
@@ -232,9 +232,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "788473f1-b42f-4cb2-9c4f-3827f983da52",
+          "path": "69d036a0-a073-4f52-ae02-c3774ae83358",
           "headers": {
-            "Host": "UpgRADe-dECiSIons-MaE-NAkED.TryclouDfLaRE.Com"
+            "Host": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm"
           }
         },
         "sockopt": {
@@ -357,7 +357,7 @@
             "port": 443,
             "users": [
               {
-                "id": "788473f1-b42f-4cb2-9c4f-3827f983da52",
+                "id": "69d036a0-a073-4f52-ae02-c3774ae83358",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -373,7 +373,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "UpgRADe-dECiSIons-MaE-NAkED.TryclouDfLaRE.Com",
+          "serverName": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm",
           "alpn": [
             "h2",
             "http/1.1"
@@ -382,9 +382,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "788473f1-b42f-4cb2-9c4f-3827f983da52",
+          "path": "69d036a0-a073-4f52-ae02-c3774ae83358",
           "headers": {
-            "Host": "UpgRADe-dECiSIons-MaE-NAkED.TryclouDfLaRE.Com"
+            "Host": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm"
           }
         },
         "sockopt": {
@@ -507,7 +507,7 @@
             "port": 443,
             "users": [
               {
-                "id": "788473f1-b42f-4cb2-9c4f-3827f983da52",
+                "id": "69d036a0-a073-4f52-ae02-c3774ae83358",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -523,7 +523,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "UpgRADe-dECiSIons-MaE-NAkED.TryclouDfLaRE.Com",
+          "serverName": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm",
           "alpn": [
             "h2",
             "http/1.1"
@@ -532,9 +532,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "788473f1-b42f-4cb2-9c4f-3827f983da52",
+          "path": "69d036a0-a073-4f52-ae02-c3774ae83358",
           "headers": {
-            "Host": "UpgRADe-dECiSIons-MaE-NAkED.TryclouDfLaRE.Com"
+            "Host": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm"
           }
         },
         "sockopt": {
@@ -657,7 +657,7 @@
             "port": 443,
             "users": [
               {
-                "id": "788473f1-b42f-4cb2-9c4f-3827f983da52",
+                "id": "69d036a0-a073-4f52-ae02-c3774ae83358",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -673,7 +673,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "UpgRADe-dECiSIons-MaE-NAkED.TryclouDfLaRE.Com",
+          "serverName": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm",
           "alpn": [
             "h2",
             "http/1.1"
@@ -682,9 +682,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "788473f1-b42f-4cb2-9c4f-3827f983da52",
+          "path": "69d036a0-a073-4f52-ae02-c3774ae83358",
           "headers": {
-            "Host": "UpgRADe-dECiSIons-MaE-NAkED.TryclouDfLaRE.Com"
+            "Host": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm"
           }
         },
         "sockopt": {
@@ -807,7 +807,7 @@
             "port": 443,
             "users": [
               {
-                "id": "788473f1-b42f-4cb2-9c4f-3827f983da52",
+                "id": "69d036a0-a073-4f52-ae02-c3774ae83358",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -823,7 +823,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "UpgRADe-dECiSIons-MaE-NAkED.TryclouDfLaRE.Com",
+          "serverName": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm",
           "alpn": [
             "h2",
             "http/1.1"
@@ -832,9 +832,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "788473f1-b42f-4cb2-9c4f-3827f983da52",
+          "path": "69d036a0-a073-4f52-ae02-c3774ae83358",
           "headers": {
-            "Host": "UpgRADe-dECiSIons-MaE-NAkED.TryclouDfLaRE.Com"
+            "Host": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm"
           }
         },
         "sockopt": {
@@ -957,7 +957,7 @@
             "port": 443,
             "users": [
               {
-                "id": "788473f1-b42f-4cb2-9c4f-3827f983da52",
+                "id": "69d036a0-a073-4f52-ae02-c3774ae83358",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -973,7 +973,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "UpgRADe-dECiSIons-MaE-NAkED.TryclouDfLaRE.Com",
+          "serverName": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm",
           "alpn": [
             "h2",
             "http/1.1"
@@ -982,9 +982,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "788473f1-b42f-4cb2-9c4f-3827f983da52",
+          "path": "69d036a0-a073-4f52-ae02-c3774ae83358",
           "headers": {
-            "Host": "UpgRADe-dECiSIons-MaE-NAkED.TryclouDfLaRE.Com"
+            "Host": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm"
           }
         },
         "sockopt": {
@@ -1107,7 +1107,7 @@
             "port": 443,
             "users": [
               {
-                "id": "788473f1-b42f-4cb2-9c4f-3827f983da52",
+                "id": "69d036a0-a073-4f52-ae02-c3774ae83358",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -1123,7 +1123,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "UpgRADe-dECiSIons-MaE-NAkED.TryclouDfLaRE.Com",
+          "serverName": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm",
           "alpn": [
             "h2",
             "http/1.1"
@@ -1132,9 +1132,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "788473f1-b42f-4cb2-9c4f-3827f983da52",
+          "path": "69d036a0-a073-4f52-ae02-c3774ae83358",
           "headers": {
-            "Host": "UpgRADe-dECiSIons-MaE-NAkED.TryclouDfLaRE.Com"
+            "Host": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm"
           }
         },
         "sockopt": {
@@ -1257,7 +1257,7 @@
             "port": 443,
             "users": [
               {
-                "id": "788473f1-b42f-4cb2-9c4f-3827f983da52",
+                "id": "69d036a0-a073-4f52-ae02-c3774ae83358",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -1282,7 +1282,7 @@
           "show": false
         },
         "wsSettings": {
-          "path": "788473f1-b42f-4cb2-9c4f-3827f983da52",
+          "path": "69d036a0-a073-4f52-ae02-c3774ae83358",
           "headers": {
             "Host": "HigH-SpeEd1nE.xYz"
           }
@@ -1407,7 +1407,7 @@
             "port": 443,
             "users": [
               {
-                "id": "788473f1-b42f-4cb2-9c4f-3827f983da52",
+                "id": "69d036a0-a073-4f52-ae02-c3774ae83358",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -1432,7 +1432,7 @@
           "show": false
         },
         "wsSettings": {
-          "path": "788473f1-b42f-4cb2-9c4f-3827f983da52",
+          "path": "69d036a0-a073-4f52-ae02-c3774ae83358",
           "headers": {
             "Host": "HigH-SpeEd1nE.xYz"
           }
@@ -1557,7 +1557,7 @@
             "port": 443,
             "users": [
               {
-                "id": "788473f1-b42f-4cb2-9c4f-3827f983da52",
+                "id": "69d036a0-a073-4f52-ae02-c3774ae83358",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -1582,7 +1582,7 @@
           "show": false
         },
         "wsSettings": {
-          "path": "788473f1-b42f-4cb2-9c4f-3827f983da52",
+          "path": "69d036a0-a073-4f52-ae02-c3774ae83358",
           "headers": {
             "Host": "HigH-SpeEd1nE.xYz"
           }
@@ -1707,7 +1707,7 @@
             "port": 443,
             "users": [
               {
-                "id": "788473f1-b42f-4cb2-9c4f-3827f983da52",
+                "id": "69d036a0-a073-4f52-ae02-c3774ae83358",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -1732,7 +1732,7 @@
           "show": false
         },
         "wsSettings": {
-          "path": "788473f1-b42f-4cb2-9c4f-3827f983da52",
+          "path": "69d036a0-a073-4f52-ae02-c3774ae83358",
           "headers": {
             "Host": "HigH-SpeEd1nE.xYz"
           }
@@ -1857,7 +1857,7 @@
             "port": 443,
             "users": [
               {
-                "id": "788473f1-b42f-4cb2-9c4f-3827f983da52",
+                "id": "69d036a0-a073-4f52-ae02-c3774ae83358",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -1882,7 +1882,7 @@
           "show": false
         },
         "wsSettings": {
-          "path": "788473f1-b42f-4cb2-9c4f-3827f983da52",
+          "path": "69d036a0-a073-4f52-ae02-c3774ae83358",
           "headers": {
             "Host": "HigH-SpeEd1nE.xYz"
           }
