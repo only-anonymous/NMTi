@@ -203,7 +203,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.31.16.60",
+            "address": "188.114.97.3",
             "port": 443,
             "users": [
               {
@@ -503,7 +503,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "aternos.org",
+            "address": "community.f-secure.com",
             "port": 443,
             "users": [
               {
@@ -653,7 +653,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.69.236",
+            "address": "tuki.tori.fi",
             "port": 443,
             "users": [
               {
@@ -803,7 +803,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "visa.com",
+            "address": "computeruniverse.net",
             "port": 443,
             "users": [
               {
@@ -953,7 +953,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "brad.ns.cloudflare.com",
+            "address": "events.kone.com",
             "port": 443,
             "users": [
               {
@@ -1103,7 +1103,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "ns1.cloudflare.com",
+            "address": "ns6.cloudflare.com",
             "port": 443,
             "users": [
               {
