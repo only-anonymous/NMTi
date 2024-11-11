@@ -1,6 +1,6 @@
 [
 {
-  "remarks": "HamrahAvval-Irancell (1)",
+  "remarks": "HamrahAvval 1",
   "log": {
     "access": "",
     "error": "",
@@ -53,11 +53,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.3",
+            "address": "zula.ir",
             "port": 443,
             "users": [
               {
-                "id": "69d036a0-a073-4f52-ae02-c3774ae83358",
+                "id": "f1cfd336-4833-4fbb-8ac9-e9adb0c5f408",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -73,7 +73,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm",
+          "serverName": "WarEhOuSe-BrEEd-HerO-AUtuMN.TrYclOudFlaRE.cOM",
           "alpn": [
             "h2",
             "http/1.1"
@@ -82,9 +82,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "69d036a0-a073-4f52-ae02-c3774ae83358",
+          "path": "f1cfd336-4833-4fbb-8ac9-e9adb0c5f408",
           "headers": {
-            "Host": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm"
+            "Host": "WarEhOuSe-BrEEd-HerO-AUtuMN.TrYclOudFlaRE.cOM"
           }
         },
         "sockopt": {
@@ -101,9 +101,9 @@
       "settings": {
         "domainStrategy": "AsIs",
         "fragment": {
-          "packets": "1-1",
-          "length": "10-20",
-          "interval": "5-10"
+          "packets": "tlshello",
+          "length": "100-200",
+          "interval": "10-20"
         }
       },
       "streamSettings": {
@@ -150,7 +150,7 @@
   }
 },
 {
-  "remarks": "HamrahAvval-Irancell (2)",
+  "remarks": "HamrahAvval 2",
   "log": {
     "access": "",
     "error": "",
@@ -203,11 +203,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.97.3",
+            "address": "news24.com",
             "port": 443,
             "users": [
               {
-                "id": "69d036a0-a073-4f52-ae02-c3774ae83358",
+                "id": "f1cfd336-4833-4fbb-8ac9-e9adb0c5f408",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -223,7 +223,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm",
+          "serverName": "WarEhOuSe-BrEEd-HerO-AUtuMN.TrYclOudFlaRE.cOM",
           "alpn": [
             "h2",
             "http/1.1"
@@ -232,9 +232,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "69d036a0-a073-4f52-ae02-c3774ae83358",
+          "path": "f1cfd336-4833-4fbb-8ac9-e9adb0c5f408",
           "headers": {
-            "Host": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm"
+            "Host": "WarEhOuSe-BrEEd-HerO-AUtuMN.TrYclOudFlaRE.cOM"
           }
         },
         "sockopt": {
@@ -251,9 +251,9 @@
       "settings": {
         "domainStrategy": "AsIs",
         "fragment": {
-          "packets": "1-1",
-          "length": "10-20",
-          "interval": "5-10"
+          "packets": "tlshello",
+          "length": "100-200",
+          "interval": "10-20"
         }
       },
       "streamSettings": {
@@ -300,457 +300,7 @@
   }
 },
 {
-  "remarks": "HamrahAvval-Irancell (3)",
-  "log": {
-    "access": "",
-    "error": "",
-    "loglevel": "warning"
-  },
-  "inbounds": [
-    {
-      "tag": "socks",
-      "port": 10808,
-      "listen": "127.0.0.1",
-      "protocol": "socks",
-      "sniffing": {
-        "enabled": true,
-        "destOverride": [
-          "http",
-          "tls"
-        ],
-        "routeOnly": false
-      },
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "allowTransparent": false
-      }
-    },
-    {
-      "tag": "http",
-      "port": 10809,
-      "listen": "127.0.0.1",
-      "protocol": "http",
-      "sniffing": {
-        "enabled": true,
-        "destOverride": [
-          "http",
-          "tls"
-        ],
-        "routeOnly": false
-      },
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "allowTransparent": false
-      }
-    }
-  ],
-  "outbounds": [
-    {
-      "tag": "proxy",
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "crossout.net",
-            "port": 443,
-            "users": [
-              {
-                "id": "69d036a0-a073-4f52-ae02-c3774ae83358",
-                "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm",
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "chrome",
-          "show": false
-        },
-        "wsSettings": {
-          "path": "69d036a0-a073-4f52-ae02-c3774ae83358",
-          "headers": {
-            "Host": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm"
-          }
-        },
-        "sockopt": {
-          "dialerProxy": "fragment",
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpNoDelay": true
-        }
-      }
-    },
-    {
-      "tag": "fragment",
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "AsIs",
-        "fragment": {
-          "packets": "1-1",
-          "length": "10-20",
-          "interval": "5-10"
-        }
-      },
-      "streamSettings": {
-        "sockopt": {
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100
-        }
-      }
-    },
-    {
-      "tag": "direct",
-      "protocol": "freedom",
-      "settings": {}
-    },
-    {
-      "tag": "block",
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      }
-    }
-  ],
-  "routing": {
-    "domainStrategy": "AsIs",
-    "rules": [
-      {
-        "type": "field",
-        "inboundTag": [
-          "api"
-        ],
-        "outboundTag": "api",
-        "enabled": true
-      },
-      {
-        "id": "5627785659655799759",
-        "type": "field",
-        "port": "0-65535",
-        "outboundTag": "proxy",
-        "enabled": true
-      }
-    ]
-  }
-},
-{
-  "remarks": "HamrahAvval-Irancell (4)",
-  "log": {
-    "access": "",
-    "error": "",
-    "loglevel": "warning"
-  },
-  "inbounds": [
-    {
-      "tag": "socks",
-      "port": 10808,
-      "listen": "127.0.0.1",
-      "protocol": "socks",
-      "sniffing": {
-        "enabled": true,
-        "destOverride": [
-          "http",
-          "tls"
-        ],
-        "routeOnly": false
-      },
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "allowTransparent": false
-      }
-    },
-    {
-      "tag": "http",
-      "port": 10809,
-      "listen": "127.0.0.1",
-      "protocol": "http",
-      "sniffing": {
-        "enabled": true,
-        "destOverride": [
-          "http",
-          "tls"
-        ],
-        "routeOnly": false
-      },
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "allowTransparent": false
-      }
-    }
-  ],
-  "outbounds": [
-    {
-      "tag": "proxy",
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "community.f-secure.com",
-            "port": 443,
-            "users": [
-              {
-                "id": "69d036a0-a073-4f52-ae02-c3774ae83358",
-                "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm",
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "chrome",
-          "show": false
-        },
-        "wsSettings": {
-          "path": "69d036a0-a073-4f52-ae02-c3774ae83358",
-          "headers": {
-            "Host": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm"
-          }
-        },
-        "sockopt": {
-          "dialerProxy": "fragment",
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpNoDelay": true
-        }
-      }
-    },
-    {
-      "tag": "fragment",
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "AsIs",
-        "fragment": {
-          "packets": "1-1",
-          "length": "10-20",
-          "interval": "5-10"
-        }
-      },
-      "streamSettings": {
-        "sockopt": {
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100
-        }
-      }
-    },
-    {
-      "tag": "direct",
-      "protocol": "freedom",
-      "settings": {}
-    },
-    {
-      "tag": "block",
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      }
-    }
-  ],
-  "routing": {
-    "domainStrategy": "AsIs",
-    "rules": [
-      {
-        "type": "field",
-        "inboundTag": [
-          "api"
-        ],
-        "outboundTag": "api",
-        "enabled": true
-      },
-      {
-        "id": "5627785659655799759",
-        "type": "field",
-        "port": "0-65535",
-        "outboundTag": "proxy",
-        "enabled": true
-      }
-    ]
-  }
-},
-{
-  "remarks": "HamrahAvval-Irancell (5)",
-  "log": {
-    "access": "",
-    "error": "",
-    "loglevel": "warning"
-  },
-  "inbounds": [
-    {
-      "tag": "socks",
-      "port": 10808,
-      "listen": "127.0.0.1",
-      "protocol": "socks",
-      "sniffing": {
-        "enabled": true,
-        "destOverride": [
-          "http",
-          "tls"
-        ],
-        "routeOnly": false
-      },
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "allowTransparent": false
-      }
-    },
-    {
-      "tag": "http",
-      "port": 10809,
-      "listen": "127.0.0.1",
-      "protocol": "http",
-      "sniffing": {
-        "enabled": true,
-        "destOverride": [
-          "http",
-          "tls"
-        ],
-        "routeOnly": false
-      },
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "allowTransparent": false
-      }
-    }
-  ],
-  "outbounds": [
-    {
-      "tag": "proxy",
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "tuki.tori.fi",
-            "port": 443,
-            "users": [
-              {
-                "id": "69d036a0-a073-4f52-ae02-c3774ae83358",
-                "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm",
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "chrome",
-          "show": false
-        },
-        "wsSettings": {
-          "path": "69d036a0-a073-4f52-ae02-c3774ae83358",
-          "headers": {
-            "Host": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm"
-          }
-        },
-        "sockopt": {
-          "dialerProxy": "fragment",
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpNoDelay": true
-        }
-      }
-    },
-    {
-      "tag": "fragment",
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "AsIs",
-        "fragment": {
-          "packets": "1-1",
-          "length": "10-20",
-          "interval": "5-10"
-        }
-      },
-      "streamSettings": {
-        "sockopt": {
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100
-        }
-      }
-    },
-    {
-      "tag": "direct",
-      "protocol": "freedom",
-      "settings": {}
-    },
-    {
-      "tag": "block",
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      }
-    }
-  ],
-  "routing": {
-    "domainStrategy": "AsIs",
-    "rules": [
-      {
-        "type": "field",
-        "inboundTag": [
-          "api"
-        ],
-        "outboundTag": "api",
-        "enabled": true
-      },
-      {
-        "id": "5627785659655799759",
-        "type": "field",
-        "port": "0-65535",
-        "outboundTag": "proxy",
-        "enabled": true
-      }
-    ]
-  }
-},
-{
-  "remarks": "HamrahAvval-Irancell (6)",
+  "remarks": "HamrahAvval 3",
   "log": {
     "access": "",
     "error": "",
@@ -807,7 +357,7 @@
             "port": 443,
             "users": [
               {
-                "id": "69d036a0-a073-4f52-ae02-c3774ae83358",
+                "id": "f1cfd336-4833-4fbb-8ac9-e9adb0c5f408",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -823,7 +373,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm",
+          "serverName": "WarEhOuSe-BrEEd-HerO-AUtuMN.TrYclOudFlaRE.cOM",
           "alpn": [
             "h2",
             "http/1.1"
@@ -832,9 +382,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "69d036a0-a073-4f52-ae02-c3774ae83358",
+          "path": "f1cfd336-4833-4fbb-8ac9-e9adb0c5f408",
           "headers": {
-            "Host": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm"
+            "Host": "WarEhOuSe-BrEEd-HerO-AUtuMN.TrYclOudFlaRE.cOM"
           }
         },
         "sockopt": {
@@ -851,9 +401,9 @@
       "settings": {
         "domainStrategy": "AsIs",
         "fragment": {
-          "packets": "1-1",
-          "length": "10-20",
-          "interval": "5-10"
+          "packets": "tlshello",
+          "length": "100-200",
+          "interval": "10-20"
         }
       },
       "streamSettings": {
@@ -900,7 +450,7 @@
   }
 },
 {
-  "remarks": "HamrahAvval-Irancell (7)",
+  "remarks": "HamrahAvval 4",
   "log": {
     "access": "",
     "error": "",
@@ -953,11 +503,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "events.kone.com",
+            "address": "upcloud.com",
             "port": 443,
             "users": [
               {
-                "id": "69d036a0-a073-4f52-ae02-c3774ae83358",
+                "id": "f1cfd336-4833-4fbb-8ac9-e9adb0c5f408",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -973,7 +523,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm",
+          "serverName": "WarEhOuSe-BrEEd-HerO-AUtuMN.TrYclOudFlaRE.cOM",
           "alpn": [
             "h2",
             "http/1.1"
@@ -982,9 +532,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "69d036a0-a073-4f52-ae02-c3774ae83358",
+          "path": "f1cfd336-4833-4fbb-8ac9-e9adb0c5f408",
           "headers": {
-            "Host": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm"
+            "Host": "WarEhOuSe-BrEEd-HerO-AUtuMN.TrYclOudFlaRE.cOM"
           }
         },
         "sockopt": {
@@ -1001,9 +551,9 @@
       "settings": {
         "domainStrategy": "AsIs",
         "fragment": {
-          "packets": "1-1",
-          "length": "10-20",
-          "interval": "5-10"
+          "packets": "tlshello",
+          "length": "100-200",
+          "interval": "10-20"
         }
       },
       "streamSettings": {
@@ -1050,7 +600,7 @@
   }
 },
 {
-  "remarks": "HamrahAvval-Irancell (8)",
+  "remarks": "All-NET 1",
   "log": {
     "access": "",
     "error": "",
@@ -1103,11 +653,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ns6.cloudflare.com",
+            "address": "tuki.tori.fi",
             "port": 443,
             "users": [
               {
-                "id": "69d036a0-a073-4f52-ae02-c3774ae83358",
+                "id": "f1cfd336-4833-4fbb-8ac9-e9adb0c5f408",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -1123,7 +673,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm",
+          "serverName": "WarEhOuSe-BrEEd-HerO-AUtuMN.TrYclOudFlaRE.cOM",
           "alpn": [
             "h2",
             "http/1.1"
@@ -1132,9 +682,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "69d036a0-a073-4f52-ae02-c3774ae83358",
+          "path": "f1cfd336-4833-4fbb-8ac9-e9adb0c5f408",
           "headers": {
-            "Host": "BritAnNica-eAsY-PhaRMaceutiCAl-PRotectIOn.tRYcloudFLare.COm"
+            "Host": "WarEhOuSe-BrEEd-HerO-AUtuMN.TrYclOudFlaRE.cOM"
           }
         },
         "sockopt": {
@@ -1151,9 +701,459 @@
       "settings": {
         "domainStrategy": "AsIs",
         "fragment": {
-          "packets": "1-1",
-          "length": "10-20",
-          "interval": "5-10"
+          "packets": "tlshello",
+          "length": "160-180",
+          "interval": "10-20"
+        }
+      },
+      "streamSettings": {
+        "sockopt": {
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom",
+      "settings": {}
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      }
+    }
+  ],
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "type": "field",
+        "inboundTag": [
+          "api"
+        ],
+        "outboundTag": "api",
+        "enabled": true
+      },
+      {
+        "id": "5627785659655799759",
+        "type": "field",
+        "port": "0-65535",
+        "outboundTag": "proxy",
+        "enabled": true
+      }
+    ]
+  }
+},
+{
+  "remarks": "ALL-NET 2",
+  "log": {
+    "access": "",
+    "error": "",
+    "loglevel": "warning"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "routeOnly": false
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "routeOnly": false
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "computeruniverse.net",
+            "port": 443,
+            "users": [
+              {
+                "id": "f1cfd336-4833-4fbb-8ac9-e9adb0c5f408",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "WarEhOuSe-BrEEd-HerO-AUtuMN.TrYclOudFlaRE.cOM",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "chrome",
+          "show": false
+        },
+        "wsSettings": {
+          "path": "f1cfd336-4833-4fbb-8ac9-e9adb0c5f408",
+          "headers": {
+            "Host": "WarEhOuSe-BrEEd-HerO-AUtuMN.TrYclOudFlaRE.cOM"
+          }
+        },
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpNoDelay": true
+        }
+      }
+    },
+    {
+      "tag": "fragment",
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "AsIs",
+        "fragment": {
+          "packets": "tlshello",
+          "length": "160-180",
+          "interval": "10-20"
+        }
+      },
+      "streamSettings": {
+        "sockopt": {
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom",
+      "settings": {}
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      }
+    }
+  ],
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "type": "field",
+        "inboundTag": [
+          "api"
+        ],
+        "outboundTag": "api",
+        "enabled": true
+      },
+      {
+        "id": "5627785659655799759",
+        "type": "field",
+        "port": "0-65535",
+        "outboundTag": "proxy",
+        "enabled": true
+      }
+    ]
+  }
+},
+{
+  "remarks": "ALL-NET 3",
+  "log": {
+    "access": "",
+    "error": "",
+    "loglevel": "warning"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "routeOnly": false
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "routeOnly": false
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "foreca.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "f1cfd336-4833-4fbb-8ac9-e9adb0c5f408",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "WarEhOuSe-BrEEd-HerO-AUtuMN.TrYclOudFlaRE.cOM",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "chrome",
+          "show": false
+        },
+        "wsSettings": {
+          "path": "f1cfd336-4833-4fbb-8ac9-e9adb0c5f408",
+          "headers": {
+            "Host": "WarEhOuSe-BrEEd-HerO-AUtuMN.TrYclOudFlaRE.cOM"
+          }
+        },
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpNoDelay": true
+        }
+      }
+    },
+    {
+      "tag": "fragment",
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "AsIs",
+        "fragment": {
+          "packets": "tlshello",
+          "length": "160-180",
+          "interval": "10-20"
+        }
+      },
+      "streamSettings": {
+        "sockopt": {
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom",
+      "settings": {}
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      }
+    }
+  ],
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "type": "field",
+        "inboundTag": [
+          "api"
+        ],
+        "outboundTag": "api",
+        "enabled": true
+      },
+      {
+        "id": "5627785659655799759",
+        "type": "field",
+        "port": "0-65535",
+        "outboundTag": "proxy",
+        "enabled": true
+      }
+    ]
+  }
+},
+{
+  "remarks": "ALL-NET 4",
+  "log": {
+    "access": "",
+    "error": "",
+    "loglevel": "warning"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "routeOnly": false
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "routeOnly": false
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ninjaone.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "f1cfd336-4833-4fbb-8ac9-e9adb0c5f408",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "WarEhOuSe-BrEEd-HerO-AUtuMN.TrYclOudFlaRE.cOM",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "chrome",
+          "show": false
+        },
+        "wsSettings": {
+          "path": "f1cfd336-4833-4fbb-8ac9-e9adb0c5f408",
+          "headers": {
+            "Host": "WarEhOuSe-BrEEd-HerO-AUtuMN.TrYclOudFlaRE.cOM"
+          }
+        },
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpNoDelay": true
+        }
+      }
+    },
+    {
+      "tag": "fragment",
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "AsIs",
+        "fragment": {
+          "packets": "tlshello",
+          "length": "160-180",
+          "interval": "10-20"
         }
       },
       "streamSettings": {
@@ -1257,7 +1257,7 @@
             "port": 443,
             "users": [
               {
-                "id": "69d036a0-a073-4f52-ae02-c3774ae83358",
+                "id": "f1cfd336-4833-4fbb-8ac9-e9adb0c5f408",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -1282,7 +1282,7 @@
           "show": false
         },
         "wsSettings": {
-          "path": "69d036a0-a073-4f52-ae02-c3774ae83358",
+          "path": "f1cfd336-4833-4fbb-8ac9-e9adb0c5f408",
           "headers": {
             "Host": "HigH-SpeEd1nE.xYz"
           }
@@ -1301,7 +1301,7 @@
       "settings": {
         "domainStrategy": "AsIs",
         "fragment": {
-          "packets": "1-1",
+          "packets": "tlshello",
           "length": "10-20",
           "interval": "5-10"
         }
@@ -1407,7 +1407,7 @@
             "port": 443,
             "users": [
               {
-                "id": "69d036a0-a073-4f52-ae02-c3774ae83358",
+                "id": "f1cfd336-4833-4fbb-8ac9-e9adb0c5f408",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -1432,7 +1432,7 @@
           "show": false
         },
         "wsSettings": {
-          "path": "69d036a0-a073-4f52-ae02-c3774ae83358",
+          "path": "f1cfd336-4833-4fbb-8ac9-e9adb0c5f408",
           "headers": {
             "Host": "HigH-SpeEd1nE.xYz"
           }
@@ -1451,7 +1451,7 @@
       "settings": {
         "domainStrategy": "AsIs",
         "fragment": {
-          "packets": "1-1",
+          "packets": "tlshello",
           "length": "10-20",
           "interval": "5-10"
         }
@@ -1557,7 +1557,7 @@
             "port": 443,
             "users": [
               {
-                "id": "69d036a0-a073-4f52-ae02-c3774ae83358",
+                "id": "f1cfd336-4833-4fbb-8ac9-e9adb0c5f408",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -1582,7 +1582,7 @@
           "show": false
         },
         "wsSettings": {
-          "path": "69d036a0-a073-4f52-ae02-c3774ae83358",
+          "path": "f1cfd336-4833-4fbb-8ac9-e9adb0c5f408",
           "headers": {
             "Host": "HigH-SpeEd1nE.xYz"
           }
@@ -1601,7 +1601,7 @@
       "settings": {
         "domainStrategy": "AsIs",
         "fragment": {
-          "packets": "1-1",
+          "packets": "tlshello",
           "length": "10-20",
           "interval": "5-10"
         }
@@ -1707,7 +1707,7 @@
             "port": 443,
             "users": [
               {
-                "id": "69d036a0-a073-4f52-ae02-c3774ae83358",
+                "id": "f1cfd336-4833-4fbb-8ac9-e9adb0c5f408",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -1732,7 +1732,7 @@
           "show": false
         },
         "wsSettings": {
-          "path": "69d036a0-a073-4f52-ae02-c3774ae83358",
+          "path": "f1cfd336-4833-4fbb-8ac9-e9adb0c5f408",
           "headers": {
             "Host": "HigH-SpeEd1nE.xYz"
           }
@@ -1751,7 +1751,7 @@
       "settings": {
         "domainStrategy": "AsIs",
         "fragment": {
-          "packets": "1-1",
+          "packets": "tlshello",
           "length": "10-20",
           "interval": "5-10"
         }
@@ -1857,7 +1857,7 @@
             "port": 443,
             "users": [
               {
-                "id": "69d036a0-a073-4f52-ae02-c3774ae83358",
+                "id": "f1cfd336-4833-4fbb-8ac9-e9adb0c5f408",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -1882,7 +1882,7 @@
           "show": false
         },
         "wsSettings": {
-          "path": "69d036a0-a073-4f52-ae02-c3774ae83358",
+          "path": "f1cfd336-4833-4fbb-8ac9-e9adb0c5f408",
           "headers": {
             "Host": "HigH-SpeEd1nE.xYz"
           }
@@ -1901,7 +1901,7 @@
       "settings": {
         "domainStrategy": "AsIs",
         "fragment": {
-          "packets": "1-1",
+          "packets": "tlshello",
           "length": "10-20",
           "interval": "5-10"
         }
